@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>歡樂黑白玩,黑白玩水果盤,黑白玩老虎機,WebSLOT</title>
+	<meta name="歡樂黑白玩,黑白玩,自制小遊戲，多人互動小遊戲,線上猜拳,多人猜拳,雙人猜拳,連線水果盤,連線老虎機,WEB版水果盤" content="" />
+	
+	<script src="js/swfobject.js"></script>
+	<script>
+		var flashvars = {
+		};
+		var params = {
+			menu: "false",
+			scale: "noScale",
+			allowFullscreen: "true",
+			allowScriptAccess: "always",
+			bgcolor: "",
+			wmode: "direct" // can cause issues with FP settings & webcam
+		};
+		var attributes = {
+			id:"WebSLOT"
+		};
+		swfobject.embedSWF(
+			"WebSLOT.swf", 
+			"altContent", "100%", "100%", "10.0.0", 
+			"expressInstall.swf", 
+			flashvars, params, attributes);
+	</script>
+	<style>
+		html, body { height:100%; overflow:hidden; }
+		body { margin:0; }
+	</style>
+</head>
+<body>
+	<div id="altContent">
+		<h1>WebSLOT</h1>
+		<p><a href="http://www.adobe.com/go/getflashplayer">Get Adobe Flash player</a></p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>歡樂黑白玩、個人自制多人互動小遊戲,線上猜拳,多人猜拳,雙人猜拳</title>
+	<meta name="baidu-site-verification" content="RVc0aynEQQ" />
+	<meta name="歡樂黑白玩,黑白玩,自制小遊戲,多人互動小遊戲,線上猜拳,多人猜拳,雙人猜拳,連線水果盤,連線老虎機,WEB版水果盤" content="" />
+	
+	<script src="js/swfobject.js"></script>
+	<script>
+		var flashvars = {
+		};
+		var params = {
+			menu: "false",
+			scale: "noScale",
+			allowFullscreen: "true",
+			allowScriptAccess: "always",
+			allownetworking: "all",
+			bgcolor: "",
+			wmode: "direct" // can cause issues with FP settings & webcam
+		};
+		var attributes = {
+			id:"BlackButton"
+		};
+		swfobject.embedSWF(
+			"BlackButton.swf", 
+			"altContent", "100%", "100%", "10.0.0", 
+			"expressInstall.swf", 
+			flashvars, params, attributes);
+	</script>
+	<style>
+		html, body { height:100%; overflow:hidden; }
+		body { margin:0; }
+	</style>
+	
+	<SCRIPT language=javascript>
+	function g(formname)    {
+    var url = "http://black-tw.eu5.org/";
+    if (formname.s[1].checked) {
+        formname.ct.value = "2097152";
+    }
+    else {
+        formname.ct.value = "0";
+    }
+    formname.action = url;
+    return true;
+}
+</SCRIPT>
+<!-- <form name="f1" onsubmit="return g(this)"><table bgcolor="#FFFFFF" style="font-size:9pt;"><tr height="60"><td valign="top"><img src="http://img.baidu.com/img/logo-137px.gif" border="0" alt="baidu"></td><td><input name=word size="30" maxlength="100"><input type="submit" value="=Search="><br><input name=tn type=hidden value="bds"><input name=cl type=hidden value="3"><input name=ct type=hidden><input name=si type=hidden value="http://black-tw.eu5.org/"><input name=s type=radio> Internet <input name=s type=radio checked> black-tw.eu5.org </td></tr></table></form> -->
+
+</head>
+<body>
+	<div id="altContent">
+		<h1>BlackButton</h1>
+		<p><a href="http://www.adobe.com/go/getflashplayer">Get Adobe Flash player</a></p>
+	</div>
+</body>
+</html>
